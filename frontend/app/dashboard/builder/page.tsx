@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { apiClient } from '../../lib/api-client';
+import { apiClient } from '@/lib/api-client';
 import { Cpu, Sparkles, Rocket, FileText, TrendingUp, ShieldAlert, DollarSign, Check, ArrowRight } from 'lucide-react';
 
 export default function WorkflowBuilderPage() {

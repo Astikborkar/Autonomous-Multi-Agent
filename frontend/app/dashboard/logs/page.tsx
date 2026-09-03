@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { TerminalViewer } from '../../components/logs/TerminalViewer';
-import { apiClient } from '../../lib/api-client';
+import { TerminalViewer } from '@/components/logs/TerminalViewer';
+import { apiClient } from '@/lib/api-client';
 import { Terminal as TerminalIcon, RefreshCw } from 'lucide-react';
 
 export default function LogsPage() {
