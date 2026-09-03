@@ -2,10 +2,10 @@
 
 import React, { useEffect, useState } from 'react';
 import { useParams, useRouter } from 'next/navigation';
-import { apiClient } from '@/lib/api-client';
-import { useSSE } from '@/hooks/useSSE';
-import { DAGVisualizer } from '@/components/workflow/DAGVisualizer';
-import { TerminalViewer } from '@/components/logs/TerminalViewer';
+import { apiClient } from '../../../lib/api-client';
+import { useSSE } from '../../../hooks/useSSE';
+import { DAGVisualizer } from '../../../components/workflow/DAGVisualizer';
+import { TerminalViewer } from '../../../components/logs/TerminalViewer';
 import { 
   Play, 
   RefreshCw, 
