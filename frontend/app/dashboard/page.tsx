@@ -2,11 +2,11 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { OverviewCards } from '@/components/dashboard/OverviewCards';
-import { ChartsSection } from '@/components/dashboard/ChartsSection';
-import { LiveActivityFeed } from '@/components/dashboard/LiveActivityFeed';
-import { useSSE } from '@/hooks/useSSE';
-import { apiClient } from '@/lib/api-client';
+import { OverviewCards } from '../../components/dashboard/OverviewCards';
+import { ChartsSection } from '../../components/dashboard/ChartsSection';
+import { LiveActivityFeed } from '../../components/dashboard/LiveActivityFeed';
+import { useSSE } from '../../hooks/useSSE';
+import { apiClient } from '../../lib/api-client';
 import { GitFork, ArrowRight, Play, CheckCircle2, Clock, XCircle, RefreshCw } from 'lucide-react';
 
 export default function DashboardPage() {

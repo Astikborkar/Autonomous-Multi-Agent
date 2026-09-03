@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { apiClient } from '@/lib/api-client';
+import { apiClient } from '../../lib/api-client';
 import { GitFork, Search, Plus, Play, CheckCircle2, XCircle, RefreshCw, Filter } from 'lucide-react';
 
 export default function WorkflowsPage() {

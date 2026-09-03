@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Cpu, Search, BarChart3, ShieldCheck, FileText, ArrowRight, CheckCircle2, Clock, AlertTriangle, RefreshCw } from 'lucide-react';
-import { WorkflowStep } from '@/types/workflow';
+import { WorkflowStep } from '../../types/workflow';
 
 interface DAGVisualizerProps {
   steps?: WorkflowStep[];
